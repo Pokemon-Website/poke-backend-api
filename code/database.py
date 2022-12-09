@@ -4,7 +4,7 @@ from motor.motor_asyncio import (
     AsyncIOMotorCollection,
     AsyncIOMotorDatabase
     )
-from settings import URL
+from url_mongo import URL
 
 def connect_mongo() -> AsyncIOMotorClient:
     # Conectando no banco de dados
